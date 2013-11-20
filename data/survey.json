@@ -1,0 +1,42 @@
+[
+    {
+        "id": 2,
+        "question": "Was bist du?",
+        "type": "radio",
+        "answers": [
+            "Mann",
+            "Frau",
+            "Sonstiges"
+        ]
+    },
+    {
+        "id": 1,
+        "question": "Welche Spiele spielst du?",
+        "type": "checkbox",
+        "answers": [
+            "Shooter (Battlefield, Call of Duty)",
+            "Strategiespiele (Age of Empires, Anno)",
+            "Casual (Farmville, Angry Birds)"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Welche Spielplattformen benutzt du?",
+        "type": "checkbox",
+        "answers": [
+            "Steam",
+            "Origin",
+            "Xbox"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Welches ist dein Lieblingsspiel?",
+        "type": "input"
+    },
+    {
+        "id": 5,
+        "question": "Wieso stellt Marc soviele Fragen?",
+        "type": "input"
+    }
+]

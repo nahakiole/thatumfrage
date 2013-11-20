@@ -1,0 +1,43 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background-color: #5F5F5F;
+}
+
+#login {
+    padding: 20px;
+    background: #efefef;
+}
+
+#login .btn {
+    width: 100%;
+}
+
+.alert {
+    margin: 10px 0;
+}
+
+#survey, #finished {
+    background: #efefef;
+    padding: 15px;
+    position: relative;
+}
+
+#survey label {
+    display: block;
+}
+
+#survey input[type="text"],
+#survey input[type="submit"] {
+    clear: left;
+}
+
+#survey .logout {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}

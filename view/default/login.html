@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4">
+        <form action="/login" role="form" method="POST" id="login">
+            <label for="name">Benutzername</label><br/>
+            <input class="form-control" id="name" type="text" name="login[username]" value="[[LOGIN_USERNAME]]"/><br/>
+            <label for="password">Passwort</label><br/>
+            <input class="form-control" id="password" type="password" name="login[password]"/><br/>
+            <input type="submit" value="Absenden" class="btn  btn-primary"/>
+
+            [[LOGIN_ERROR]]
+        </form>
+    </div>
+    <div class="col-lg-4"></div>
+</div>
