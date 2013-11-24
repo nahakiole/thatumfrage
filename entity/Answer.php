@@ -50,6 +50,7 @@ class Answer {
         $file = file_get_contents('./data/answer.json');
         $answers = json_decode($file, true);
         $answers[] =  $this->__toString();
+        var_dump($answers);
         file_put_contents('./data/answer.json',$answers);
     }
 } 
